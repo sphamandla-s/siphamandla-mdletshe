@@ -326,3 +326,7 @@ import {
       url: "#",
     },
   ];
+
+
+
+  export const core_skills = ["Software Engineer.", "Full-Stack Developer.",  "DevOps.", "Cyber Security."]
