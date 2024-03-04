@@ -34,7 +34,7 @@ import {
   telegram,
   twitter,
   yourlogo,
-  docker, 
+  docker,
   aws,
   nextjs,
   nodejs,
@@ -211,7 +211,7 @@ export const stack = [
     width: 38,
     height: 32,
   },
-  
+
 ];
 
 
@@ -286,7 +286,7 @@ export const devops_stack = [
     width: 38,
     height: 32,
   },
-  
+
 ];
 
 export const pricing = [
@@ -325,56 +325,65 @@ export const pricing = [
   },
 ];
 
-export const benefits = [
+export const projects = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "SM Infinite Tech",
+    text: "Designed and developed a website for SM Infinite Tech, a tech agency, showcasing their services, portfolio, and team. This project involved crafting compelling visuals, implementing user-friendly navigation, or utilizing SEO best practices.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
+    href:'/'
+
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "YD Kings Forex",
+    text : "Designed and developed a comprehensive website for Yd Kings, a foreign exchange (forex) company. This platform facilitates the sale of their services, ebooks, and educational courses related to forex trading.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
+    href:'/'
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Baby Queen Transport",
+    text: "Designed and developed a user-friendly website for Baby Queen Transport, a small trucking company.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
+    href:'/'
+
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Kasi Spaces",
+    text: "Designed and developed a software for Kasi Spaces, a pioneering real estate management platform. This platform caters specifically to the needs of property owners, managers, and professionals.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
     light: true,
+    href:'/'
+
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "AfriVel",
+    text: " Designed and developed a user-centric website for AfriVel, a travel agency specializing in African adventures.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "UnityTreasury",
+    text : "Designed and developed a software for UnityTreasury, a platform fostering financial empowerment and collective growth for individuals and communities. UnityTreasury leverages the power of collaboration to help users achieve common financial goals.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
+    href:'/'
+
   },
 ];
 
