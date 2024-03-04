@@ -74,6 +74,8 @@ import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
+import resume from "./Siphamandla Mdletshe Developer Resume.pdf"
+import asctro from './astrocat.png'
 
 export {
   brainwave,
@@ -144,4 +146,6 @@ export {
   instagram,
   telegram,
   twitter,
+  resume,
+  asctro,
 };

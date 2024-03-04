@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom";
-import { brainwave } from "../assets";
-import { navigation } from "../contstants";
+import { brainwave, resume } from "../assets";
+import { navigation } from "../constants";
 import Button from "./Button";
 import MenuSvg from '../assets/svg/MenuSvg'
 import { HamburgerMenu } from "./design/Header";
@@ -62,13 +62,8 @@ const Header = () => {
                     <HamburgerMenu />
                 </nav>
 
-                {/* <a
-                    href="#signup"
-                    className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
-                >
-                    New account
-                </a> */}
-                <Button className="hidden lg:flex" href="#login">
+              
+                <Button className="hidden lg:flex" href={resume} download={resume} >
                      Resume
                 </Button>
 
