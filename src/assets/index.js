@@ -74,8 +74,26 @@ import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
-import resume from "./Siphamandla Mdletshe Developer Resume.pdf"
-import asctro from './astrocat.png'
+import resume from "./Siphamandla Mdletshe Developer Resume.pdf";
+import sipha from './sipha.svg'
+import asctro from './astrocat.png';
+import docker from './docker-svgrepo-com.svg';
+import aws from './aws-svgrepo-com.svg';
+import flutter from './flutter-svgrepo-com.svg';
+import git from './git-svgrepo-com.svg';
+import java from './java-logo-svgrepo-com.svg';
+import javascript from './javascript-svgrepo-com.svg';
+import jenkins from './jenkins-svgrepo-com.svg';
+import kubernetes from './kubernetes-svgrepo-com.svg';
+import nextjs from './next-dot-js-svgrepo-com.svg';
+import nodejs from './nodejs-svgrepo-com.svg';
+import python from './python-svgrepo-com.svg';
+import react from './react-javascript-js-framework-facebook-svgrepo-com.svg';
+import sql from './sql-database-generic-svgrepo-com.svg';
+import angular from './angular-svgrepo-com.svg';
+import ansible from './ansible-svgrepo-com.svg';
+import mongodb from './mongodb-svgrepo-com.svg';
+import linux from './linux-svgrepo-com.svg';
 
 export {
   brainwave,
@@ -147,5 +165,24 @@ export {
   telegram,
   twitter,
   resume,
+  sipha,
   asctro,
+  docker,
+  aws,
+  nextjs,
+  nodejs,
+  react,
+  sql,
+  flutter,
+  java,
+  jenkins,
+  javascript,
+  python,
+  git,
+  kubernetes,
+  angular,
+  ansible,
+  linux,
+  mongodb,
+
 };
