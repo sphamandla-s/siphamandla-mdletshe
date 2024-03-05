@@ -7,7 +7,7 @@ import { core_skills } from '../constants';
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import { heroIcons } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaPhone } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 
@@ -81,13 +81,16 @@ function Hero() {
                                             </li>
                                         ))} */}
                                         <li className="p-5" >
-                                            <a href=''> <FaLinkedin width={24} height={25} /></a>
+                                            <a href='https://www.linkedin.com/in/siphamandla-mdletshe-644a7323b/'> <FaLinkedin width={24} height={25} /></a>
                                         </li>
                                         <li className="p-5" >
-                                            <a href=''> <FaGithub width={24} height={25} /></a>
+                                            <a href='https://github.com/sphamandla-s'> <FaGithub width={24} height={25} /></a>
                                         </li>
                                         <li className="p-5" >
-                                            <a href=''> <MdEmail width={24} height={25} /></a>
+                                            <a href='mailto:mdletshespha38@gmail.com'> <MdEmail width={24} height={25} /></a>
+                                        </li>
+                                        <li className="p-5" >
+                                            <a href=''> <FaPhone width={24} height={25} /></a>
                                         </li>
                                     </ul>
                                 </ScrollParallax>
