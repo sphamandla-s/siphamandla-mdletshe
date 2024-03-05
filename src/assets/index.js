@@ -94,6 +94,7 @@ import angular from './angular-svgrepo-com.svg';
 import ansible from './ansible-svgrepo-com.svg';
 import mongodb from './mongodb-svgrepo-com.svg';
 import linux from './linux-svgrepo-com.svg';
+import mmh from './mmh.png';
 
 export {
   brainwave,
@@ -184,5 +185,5 @@ export {
   ansible,
   linux,
   mongodb,
-
+  mmh
 };

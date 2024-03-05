@@ -61,7 +61,7 @@ const About = () => {
                         <Generating className="absolute left-4 right-4 bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" />
                     </div>
 
-                    {/* <div className="relative z-1 grid gap-5 lg:grid-cols-2">
+                    <div className="relative z-1 grid gap-5 lg:grid-cols-2">
                         <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
                             <div className="absolute inset-0">
                                 <img
@@ -74,25 +74,33 @@ const About = () => {
                             </div>
 
                             <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                                <h4 className="h4 mb-4">Photo editing</h4>
+                                <h4 className="h4 mb-4">More About Me</h4>
                                 <p className="body-2 mb-[3rem] text-n-3">
-                                    Automatically enhance your photos using our AI app&apos;s
-                                    photo editing feature. Try it now!
-                                </p>
+                                    A dynamic software developer with hands-on experience at
+                                    Momentum Metropolitan Holdings, proficient in programming
+                                    concepts and technologies such as Node.js, Java, UI development,
+                                    Kubernetes, Docker, AWS, and Jenkins, showcasing expertise in Java,
+                                    Flutter, and Python. Experienced in Agile and Scrum methodologies,
+                                    adept at problem-solving and delivering high-quality products
+                                    through collaboration and effective communication, passionate
+                                    about leveraging skills to contribute meaningfully to innovative
+                                    projects and eager to continue growth in software development.                                </p>
                             </div>
 
-                            <PhotoChatMessage />
+                            {/* <PhotoChatMessage /> */}
                         </div>
 
                         <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
                             <div className="py-12 px-4 xl:px-8">
-                                <h4 className="h4 mb-4">Video generation</h4>
+                                <h4 className="h4 mb-4">Experience</h4>
                                 <p className="body-2 mb-[2rem] text-n-3">
-                                    The world’s most powerful AI photo and video art generation
-                                    engine. What will you create?
+                                    Actively building a diverse skillset by putting theory into
+                                    practice and shaping my professional journey.
                                 </p>
 
                                 <ul className="flex items-center justify-between">
+
+                            
                                     {brainwaveServicesIcons.map((item, index) => (
                                         <li
                                             key={index}
@@ -123,12 +131,24 @@ const About = () => {
                                     height={400}
                                     alt="Scary robot"
                                 />
+                                <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
+                                    <ul className="body-2">
+                                        <li
+                                            className="flex items-start py-4 border-t border-n-6"
+                                        >
+                                            <img width={24} height={24} src={check} />
+                                            <a href="https://www.wethinkcode.co.za/students" target="_blank"
+                                                className="ml-4">2023/06/01 - Present<br />
+                                                <span className=" font-semibold"> Momentum Metropolitan Holdings</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
 
-                                <VideoChatMessage />
-                                <VideoBar />
+                                {/* <VideoChatMessage />
+                                <VideoBar /> */}
                             </div>
                         </div>
-                    </div> */}
+                    </div>
 
                     <Gradient />
                 </div>

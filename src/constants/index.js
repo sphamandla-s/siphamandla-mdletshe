@@ -51,6 +51,8 @@ import {
   ansible,
   linux,
   mongodb,
+  loading,
+  mmh
 } from "../assets";
 
 export const navigation = [
@@ -89,11 +91,11 @@ export const brainwaveServices = [
 ];
 
 export const brainwaveServicesIcons = [
-  recording03,
-  recording01,
-  disc02,
-  chromecast,
-  sliders04,
+  loading,
+  loading,
+  mmh,
+  loading,
+  loading,
 ];
 
 export const roadmap = [
