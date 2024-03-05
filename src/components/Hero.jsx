@@ -5,7 +5,6 @@ import Button from './Button'
 import Typewriter from 'typewriter-effect';
 import { core_skills } from '../constants';
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
-import { heroIcons } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
 import { FaLinkedin, FaGithub, FaPhone } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
