@@ -80,13 +80,13 @@ function Hero() {
                                             </li>
                                         ))} */}
                                         <li className="p-5" >
-                                            <a href='https://www.linkedin.com/in/siphamandla-mdletshe-644a7323b/'> <FaLinkedin width={24} height={25} /></a>
+                                            <a href='https://www.linkedin.com/in/siphamandla-mdletshe-644a7323b/' target="_blank"> <FaLinkedin width={24} height={25} /></a>
                                         </li>
                                         <li className="p-5" >
-                                            <a href='https://github.com/sphamandla-s'> <FaGithub width={24} height={25} /></a>
+                                            <a href='https://github.com/sphamandla-s' target="_blank"> <FaGithub width={24} height={25} /></a>
                                         </li>
                                         <li className="p-5" >
-                                            <a href='mailto:mdletshespha38@gmail.com'> <MdEmail width={24} height={25} /></a>
+                                            <a href='mailto:mdletshespha38@gmail.com' target="_blank"> <MdEmail width={24} height={25} /></a>
                                         </li>
                                         <li className="p-5" >
                                             <a href=''> <FaPhone width={24} height={25} /></a>

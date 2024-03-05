@@ -1,5 +1,6 @@
 import ButtonGradient from './assets/svg/ButtonGradient'
 import Button from './components/Button'
+import Footer from './components/Footer'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import { Projects } from './components/Projects'
@@ -16,6 +17,7 @@ function App() {
         <Hero />
         <Skills />
         <Projects />
+        <Footer />
       </div>
       <ButtonGradient />
     </>
