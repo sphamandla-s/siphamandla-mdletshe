@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Section from './Section'
 import { devops_stack, skills, stack } from '../constants'
 import { asctro, check, sipha } from '../assets'
@@ -7,6 +7,24 @@ import { LeftCurve, RightCurve } from "./design/Collaboration";
 
 
 function Skills() {
+
+
+    const [isSmallScreen, setIsSmallScreen] = useState(false);
+
+    useEffect(() => {
+      const handleResize = () => {
+        setIsSmallScreen(window.innerWidth <= 640); // Adjust breakpoint as needed
+      };
+  
+      window.addEventListener('resize', handleResize);
+      handleResize();
+  
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }, []);
+
+    
     return (
         <Section id='skills'>
             <div className="container lg:flex">
@@ -36,7 +54,7 @@ function Skills() {
                         Some of my tools of trade
                     </p>
                     <div className=' flex flex-col gap-20'>
-                        <div className="relative left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 md:scale-100">
+                        <div className={`relative left-1 md:left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 md:scale-100 ${isSmallScreen ? 'rotate-animation' : ''}`}>
                             <div className="flex w-60 aspect-square m-auto border border-n-6 rounded-full">
                                 <div className="w-[6rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
                                     <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full">
@@ -76,7 +94,7 @@ function Skills() {
                             <LeftCurve />
                             <RightCurve />
                         </div>
-                        <div className="relative left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 md:scale-100">
+                        <div className={`relative left-1 md:left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 md:scale-100 ${isSmallScreen ? 'rotate-animation' : ''}`}>
                             <div className="flex w-60 aspect-square m-auto border border-n-6 rounded-full">
                                 <div className="w-[6rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
                                     <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full">
