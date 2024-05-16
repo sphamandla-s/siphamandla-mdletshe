@@ -74,7 +74,7 @@ import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
-import resume from "./Siphamandla Mdletshe Developer Resume.pdf";
+import resume from "./Siphamandla Mdletshe Resume.pdf";
 import sipha from './sipha.svg'
 import asctro from './astrocat.png';
 import docker from './docker-svgrepo-com.svg';

@@ -13,7 +13,7 @@ import Generating from "./Generating";
 
 const About = () => {
     return (
-        <Section id="education">
+        <Section id="about">
             <div className="container">
                 <Heading
                     title="Learning & Development."
@@ -24,7 +24,7 @@ const About = () => {
                     <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
                         <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
                             <img
-                                className="w-full h-full object-cover md:object-right"
+                                className="object-cover w-full h-full md:object-right"
                                 width={800}
                                 alt="Smartest AI"
                                 height={730}
@@ -33,7 +33,7 @@ const About = () => {
                         </div>
 
                         <div className="relative z-1 max-w-[17rem] ml-auto">
-                            <h4 className="h4 mb-4">Education</h4>
+                            <h4 className="mb-4 h4">Education</h4>
                             <p className="body-2 mb-[3rem] text-n-3">
                                 A lifelong pursuit of knowledge and exploration
                             </p>
@@ -45,7 +45,7 @@ const About = () => {
                                     <a href="https://www.wethinkcode.co.za/students" target="_blank"
                                         className="ml-4">NQF level 5
                                         Information Technology: Systems Development <br />
-                                        <span className=" font-semibold">- WeThinkCode_</span></a>
+                                        <span className="font-semibold ">- WeThinkCode_</span></a>
                                 </li>
                                 <li
                                     className="flex items-start py-4 border-t border-n-6"
@@ -53,20 +53,20 @@ const About = () => {
                                     <img width={24} height={24} src={loading} />
                                     <a href="https://www.unisa.ac.za/sites/corporate/default/Register-to-study-through-Unisa/Undergraduate-&-honours-qualifications/Find-your-qualification-&-choose-your-modules/All-qualifications/Diploma-in-Law-(98750)#:~:text=The%20purpose%20of%20this%20qualification,and%20support%20to%20legal%20professionals."
                                         target="_blank" className="ml-4">Diploma in Law <br />
-                                        <span className=" font-semibold"> - University Of South Africa</span></a>
+                                        <span className="font-semibold "> - University Of South Africa</span></a>
                                 </li>
                             </ul>
                         </div>
 
-                        <Generating className="absolute left-4 right-4 bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" />
+                        <Generating className="absolute border left-4 right-4 bottom-4 border-n-1/10 lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" />
                     </div>
 
-                    <div className="relative z-1 grid gap-5 lg:grid-cols-2">
+                    <div className="relative grid gap-5 z-1 lg:grid-cols-2">
                         <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
                             <div className="absolute inset-0">
                                 <img
                                     src={service2}
-                                    className="h-full w-full object-cover"
+                                    className="object-cover w-full h-full"
                                     width={630}
                                     height={750}
                                     alt="robot"
@@ -74,7 +74,7 @@ const About = () => {
                             </div>
 
                             <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                                <h4 className="h4 mb-4">More About Me</h4>
+                                <h4 className="mb-4 h4">More About Me</h4>
                                 <p className="body-2 mb-[3rem] text-n-3">
                                     A dynamic software developer with hands-on experience at
                                     Momentum Metropolitan Holdings, proficient in programming
@@ -91,8 +91,8 @@ const About = () => {
                         </div>
 
                         <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
-                            <div className="py-12 px-4 xl:px-8">
-                                <h4 className="h4 mb-4">Experience</h4>
+                            <div className="px-4 py-12 xl:px-8">
+                                <h4 className="mb-4 h4">Experience</h4>
                                 <p className="body-2 mb-[2rem] text-n-3">
                                     Actively building a diverse skillset by putting theory into
                                     practice and shaping my professional journey.
@@ -126,7 +126,7 @@ const About = () => {
                             <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
                                 <img
                                     src={service3}
-                                    className="w-full h-full object-cover"
+                                    className="object-cover w-full h-full"
                                     width={520}
                                     height={400}
                                     alt="Scary robot"
@@ -139,7 +139,7 @@ const About = () => {
                                             <img width={24} height={24} src={check} />
                                             <a href="https://www.wethinkcode.co.za/students" target="_blank"
                                                 className="ml-4">2023/06/01 - Present<br />
-                                                <span className=" font-semibold"> Momentum Metropolitan Holdings</span></a>
+                                                <span className="font-semibold "> Momentum Metropolitan Holdings</span></a>
                                         </li>
                                     </ul>
                                 </div>

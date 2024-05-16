@@ -63,16 +63,22 @@ export const navigation = [
   },
   {
     id: "1",
-    title: "About",
+    title: "What I Can Do?",
+    url: "#skills",
+  },
+  
+  {
+    id: "2",
+    title: "More About Me",
     url: "#about",
   },
   {
-    id: "2",
+    id: "3",
     title: "Projects",
     url: "#projects",
   },
   {
-    id: "3",
+    id: "4",
     title: "Contact",
     url: "#contact",
   },

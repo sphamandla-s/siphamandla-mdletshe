@@ -24,12 +24,12 @@ function Hero() {
             crosses
             crossesOffset="lg:translate-y-[5.25rem]"
             customPaddings
-            id="hero"
+            id="home"
         >
-            <div className=' container relative' ref={parallaxRef}>
+            <div className='container relative ' ref={parallaxRef}>
                 <div className=' relative z-1 max-w-[62rem] mx-auto text-center mb-[4rem] 
         md:mb-20 lg:mb-[6rem]'>
-                    <h1 className="h1 mb-6">Siphamandla Mdletshe
+                    <h1 className="mb-6 h1">Siphamandla Mdletshe
                         <br />
                         <span className="inline-block relative text-[20px] md:h1">
                             <Typewriter
@@ -40,14 +40,14 @@ function Hero() {
                                 }} />{" "}
                             <img
                                 src={curve}
-                                className="absolute top-full left-0 w-full xl:-mt-2"
+                                className="absolute left-0 w-full top-full xl:-mt-2"
                                 width={624}
                                 height={28}
                                 alt="Curve"
                             />
                         </span>
                     </h1>
-                    <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
+                    <p className="max-w-3xl mx-auto mb-6 body-1 text-n-2 lg:mb-8">
                         I have a passion for problem-solving, innovation, and creating high-quality products.
                         Proficient in multiple programming languages and experienced in various
                         software development methodologies, always eager to learn and collaborate
@@ -76,7 +76,7 @@ function Hero() {
                                     <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
                                         {/* {heroIcons.map((icon, index) => (
                                             <li className="p-5" key={index}>
-                                                <img src={icon} width={24} height={25} alt={icon} className=' cursor-pointer' />
+                                                <img src={icon} width={24} height={25} alt={icon} className='cursor-pointer ' />
                                             </li>
                                         ))} */}
                                         <li className="p-5" >
