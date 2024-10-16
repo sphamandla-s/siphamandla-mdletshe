@@ -431,7 +431,7 @@ export const socials = [
 
 
 
-export const core_skills = ["Software Engineer.", "Full-Stack Developer.", "DevOps.", "Cyber Security."]
+export const core_skills = ["Software Engineer.", "Full-Stack Developer.", "DevOps."]
 
 export const skills =
   [
