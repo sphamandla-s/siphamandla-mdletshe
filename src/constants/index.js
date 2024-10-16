@@ -82,6 +82,7 @@ export const navigation = [
     title: "Contact",
     url: "#contact",
   },
+  
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
